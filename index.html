@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <p class="universal">Універсальна множина: U = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</p>
+            <div class="inputs">
+                <div class="column">
+                    <input id="input-a" class="input" placeholder="A" type="text">
+                    <p id="binary-a" class="binary">0, 0, 0, 0, 0, 0, 0, 0, 0, 0</p>
+                </div>
+                <div class="column">
+                    <input id="input-b" class="input" placeholder="B" type="text">
+                    <p id="binary-b" class="binary">0, 0, 0, 0, 0, 0, 0, 0, 0, 0</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="AND" class="button">AND</button>
+                <button id="OR" class="button">OR</button>
+                <button id="XOR" class="button">XOR</button>
+                <button id="decard" class="button">Декартовий добуток</button>
+            </div>
+        </div>
+        <p class="result">Результат</p>
+        <p id="result" class="result"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
